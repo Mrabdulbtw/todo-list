@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgba(255, 255, 255, 0.231), rgba(255, 255, 255, 0.192)), url(https://source.unsplash.com/random/900×700/?space`);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+
+.box {
+    width: 300px;
+    background-color: rgba(144, 146, 146, 0.384);
+    padding: 5px 20px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px;
+    margin: 50px auto;
+    width: 300px;
+}
+
+.box h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 8px;
+
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3px;
+    position: relative;
+}
+
+.text {
+    resize: none;
+    border: 1px solid rgb(114, 113, 113);
+    outline: none;
+    width: 280px;
+    height: 30px;
+    border-radius: 4px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.text:li
+
+.text::placeholder {
+    text-transform: capitalize;
+}
+
+
+.add-btn {
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid rgb(85, 81, 81);
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: gray;
+}
+
+.todolist {
+    margin-top: 10px;
+    max-height: 380px;
+    overflow-y: scroll;
+    padding-right: 6px;
+
+}
+
+.todolist .list {
+    list-style: none;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    border-radius: 5px;
+    font-size: 13.6px;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-top: 5px;
+    padding-left: 15px;
+
+}
+
+.todolist .list:hover {
+    background-color: rgb(164, 174, 182);
+}
+
+.remove {
+    opacity: 0;
+    transform: translateY(-2px);
+    margin-right: 4px;
+
+}
+
+.list:hover .remove {
+    opacity: 1;
+}
+
+.sbox {
+
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sbox p {
+    font-size: 13px;
+}
+
+.sbox .btn-all {
+    width: 60px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 25px;
+    text-transform: capitalize;
+    padding: 3px;
+    cursor: pointer;
+
+}
+
+.btn-all:hover {
+    background-color: rgb(126, 126, 138);
+    color: rgb(255, 255, 255);
+
+}
+
+span {
+    color: rgb(33, 30, 194);
+    font-weight: bold;
+
+}
